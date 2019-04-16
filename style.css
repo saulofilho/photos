@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+	width: 100%;
+	background-color: #000001;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
+p {
+	text-align: center;
+	font-size: 1em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding: 2em;
+	text-decoration: none;
+	line-height: 1.3em;
+	color: lightskyblue;
+}
+a {
+	text-decoration: none;
+}
+.blk {
+	color: black;
+}
+#Masonry {
+	color: lightskyblue;
+}
+#paddingP {
+	padding: 3em 3em 3em 3em;
+}
+#final {
+	text-align: center;
+	font-size: 0.8em;
+	padding: 3em;
+	color: black;
+}
+.grid {
+	margin: auto;
+}
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-item {
+	width: 400px;
+	margin-bottom: 15px;
+	float: left;
+	margin: 0.5%;
+}
+.gutter-sizer {
+	width: 0.5%;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+footer {
+	padding: 2em;
+}
+@media screen and (max-width: 800px) {
+	.grid-item {
+		width: 200px;
+	}
+	p {
+		color: orangered;
+		font-size: 1em;
+	}
+}
