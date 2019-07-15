@@ -10,7 +10,7 @@ window.setInterval(function () {
 'use strict';
 
 // initialize Masonry after all images have been loaded
-$('#container').imagesLoaded( function() {
+$('#container').imagesLoaded(function() {
 	$('.grid').masonry({
 		fitWidth: true,
 		itemSelector: '.grid-item',
@@ -20,11 +20,6 @@ $('#container').imagesLoaded( function() {
 	});
 })
 }) (jQuery)
-
-
-var myLazyLoad = new LazyLoad({
-	elements_selector: ".lazy",
-});
 
 
 /*
