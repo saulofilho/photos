@@ -21,11 +21,11 @@ $('#container').imagesLoaded( function() {
 })
 }) (jQuery)
 
-/*
+
 var myLazyLoad = new LazyLoad({
-	elements_selector: ".lazy"
+	elements_selector: ".lazy",
 });
-*/
+
 
 /*
 old code
