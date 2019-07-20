@@ -10,21 +10,18 @@ body {
 }
 p {
 	text-align: center;
-	font-size: 1em;
+	font-size: 2vw;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	padding: 2em;
 	text-decoration: none;
 	line-height: 1.3em;
-	color: lightskyblue;
+	color: whitesmoke;
 }
 a {
 	text-decoration: none;
 }
 .blk {
 	color: black;
-}
-#Masonry {
-	color: lightskyblue;
 }
 #paddingP {
 	padding: 3em 3em 3em 3em;
@@ -63,9 +60,5 @@ footer {
 @media screen and (max-width: 800px) {
 	.grid-item {
 		width: 200px;
-	}
-	p {
-		color: orangered;
-		font-size: 1em;
 	}
 }
