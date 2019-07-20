@@ -6,6 +6,7 @@ window.setInterval(function () {
 	});
 }, 2000);
 
+/*
 $(document).ready(function () {
 	"use strict";
 	var $grid = $('.grid').masonry({
@@ -20,8 +21,8 @@ $(document).ready(function () {
 		});
 	});
 });
+*/
 
-/*
 (function($) {
 'use strict';
 
@@ -36,4 +37,3 @@ $('#container').imagesLoaded(function() {
 	});
 })
 }) (jQuery)
-*/
